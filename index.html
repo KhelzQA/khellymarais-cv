@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khelly Monique Marais - CV</title>
     <style>
-        body {
+        @keyframes fadeBackground {
+            0% { background-color: #e3f2fd; }
+            50% { background-color: #bbdefb; }
+            100% { background-color: #e3f2fd; }
+
+        }
+            
+              body {
             font-family: Arial, sans-serif;
             margin: 40px;
             line-height: 1.6;
             max-width: 800px;
             margin: auto;
+            animation: fadeBackground 5s infinite alternate;
         }
         h1, h2 {
             color: #333;
@@ -20,6 +28,10 @@
         }
         li {
             list-style: none;
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
+        .skill {
             margin-bottom: 10px;
         }
     </style>
@@ -31,21 +43,42 @@
 
     <h2>Professional Summary</h2>
     <ul>
-        <li>6+ years in Quality Assurance (QA), 2 years in leadership</li>
+        <li>6+ years in Quality Assurance (QA), 
+        <li>2+ years in leadership</li>
         <li>4 years in Software Support & Client Service</li>
         <li>Detail-oriented, methodical, and analytical thinker</li>
         <li>Adaptable to fast-paced and dynamic environments</li>
     </ul>
 
+   <h2>Education</h2>
+    <ul>
+        <li><strong>BSc in Computer Systems</strong> - Heriot-Watt University (2014-2015)</li>
+        <li><strong>BTech (HND) in Information Technology</strong> - Pearson Education (2011-2014)</li>
+    </ul>
+
     <h2>Skills</h2>
     <ul>
-        <li>Software Testing & Fault Finding</li>
-        <li>API Testing & QA Methodologies</li>
-        <li>Test Management & Reporting</li>
-        <li>Scrum/Agile Methodologies</li>
-        <li>Azure DevOps</li>
-        <li>Technical & Customer Support</li>
-        <li>Leadership & Mentorship</li>
+        <li class="skill">✔ Software Testing & Fault Finding
+            <div class="progress-bar" style="--progress-width: 90%;"><div></div></div>
+        </li>
+        <li class="skill">✔ API Testing & QA Methodologies
+            <div class="progress-bar" style="--progress-width: 85%;"><div></div></div>
+        </li>
+        <li class="skill">✔ Test Management & Reporting
+            <div class="progress-bar" style="--progress-width: 80%;"><div></div></div>
+        </li>
+        <li class="skill">✔ Scrum/Agile Methodologies
+            <div class="progress-bar" style="--progress-width: 75%;"><div></div></div>
+        </li>
+        <li class="skill">✔ Azure DevOps
+            <div class="progress-bar" style="--progress-width: 70%;"><div></div></div>
+        </li>
+        <li class="skill">✔ Technical & Customer Support
+            <div class="progress-bar" style="--progress-width: 85%;"><div></div></div>
+        </li>
+        <li class="skill">✔ Leadership & Mentorship
+            <div class="progress-bar" style="--progress-width: 80%;"><div></div></div>
+        </li>
     </ul>
 
     <h2>Work Experience</h2>
@@ -65,11 +98,26 @@
         <li>Conducted performance reviews and career planning</li>
         <li>Ensured test strategies for all new features</li>
     </ul>
-
-    <h2>Education</h2>
+ <h3>Software QA Manual Team Lead - Rapid Deploy</h3>
+    <p><strong>Oct 2020 – Sept 2021</strong></p>
     <ul>
-        <li><strong>BSc in Computer Systems</strong> - Heriot-Watt University (2014-2015)</li>
-        <li><strong>BTech (HND) in Information Technology</strong> - Pearson Education (2011-2014)</li>
+        <li>Defined test scenarios and planned QA activities</li>
+        <li>Worked closely with developers to ensure quality standards</li>
+        <li>Supported UAT and defect resolution</li>
+        <li>Drove quality within the team and established QA best practices</li>
+        <li>Mentored and led QA team members</li>
+        <li>Coordinated testing efforts across teams and locations</li>
     </ul>
+    
+    <h3>Software Quality Assurance Analyst - Rapid Deploy</h3>
+    <p><strong>May 2018 – Oct 2020</strong></p>
+    <ul>
+        <li>Defined and executed test plans</li>
+        <li>Managed QA activities for web and mobile applications</li>
+        <li>Directed test planning and scheduling</li>
+        <li>Collaborated with developers, PMs, and analysts</li>
+        <li>Performed regression testing for releases</li>
+    </ul>
+ 
 </body>
 </html>
